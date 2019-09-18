@@ -1,0 +1,28 @@
+
+
+body{
+  background:#FCA33F;
+  font-family: Georgia;
+}
+
+h1{
+  margin-bottom: 3%;
+  margin-top:3%;
+margin-left: 10%;
+color:white;
+}
+.contain{
+  padding: 3% 1% 2% 2%;
+  margin:auto;
+width:30%;
+border-radius: 15px;
+background:white;
+
+}
+
+.field{
+
+padding-bottom: 5%;
+
+}
+
