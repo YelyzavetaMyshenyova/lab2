@@ -1,5 +1,4 @@
 
-
 body{
   background:#FCA33F;
   font-family: Georgia;
@@ -14,7 +13,6 @@ margin-left: 10%;
 color:white;
 }
 .contain{
-  
   font-weight: normal;
   font-size:100%;
   padding: 3% 1% 2% 2%;
@@ -22,9 +20,29 @@ color:white;
 width:30%;
 border-radius: 14px;
 background:white;
-
 }
 
+@media screen and (max-width: 768px) {
+     .contain {
+width:70%;
+font-size:115%;
+     }
+  
+     h1{
+font-size:159%;
+     }
+  
+   }
+
+   @media screen and (max-width: 480px) {
+        .contain {
+   width:80%;
+     font-size:130%;
+        }
+        h1{
+            font-size:169%;
+        }
+      }
 .field{
 
 padding-bottom: 5%;
