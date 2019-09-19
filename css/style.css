@@ -22,7 +22,7 @@ border-radius: 14px;
 background:white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
      .contain {
 width:70%;
 font-size:115%;
