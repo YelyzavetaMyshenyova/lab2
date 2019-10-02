@@ -1,40 +1,72 @@
-
 body{
   background:#FCA33F;
   font-family: Georgia;
+  display: block;
 }
 
 h1{
+
+  align-content: center;
   font-weight: 700;
-  font-size:149%;
-  margin-bottom: 3%;
+  font-size:158%;
+  margin-bottom: 12%;
   margin-top:3%;
-margin-left: 10%;
-color:white;
+margin-left: 3%;
+color:#FCA33F;
 }
+
 .contain{
+
+  height:69%;
+  margin-top: 5%;
+display: block;
   font-weight: normal;
-  font-size:100%;
-  padding: 3% 1% 2% 2%;
-  margin:auto;
-width:30%;
+  font-size:110%;
+  padding: 2% 1% 2% 2%;
+  margin-left:auto;
+  margin-right:auto;
+width:31%;
 border-radius: 14px;
 background:white;
+
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1050px) {
      .contain {
-width:70%;
-font-size:115%;
+width:50%;
+  font-size:115%;
      }
-  
      h1{
-font-size:159%;
+         font-size:159%;
      }
-  
    }
 
+   @media screen and (max-width: 950px) {
+        .contain {
+   width:60%;
+     font-size:115%;
+        }
+        h1{
+            font-size:159%;
+        }
+      }
+
+@media screen and (max-width: 850px) {
+  h1{
+      font-size:138%;
+  }
+     .contain {
+width:70%;
+  font-size:115%;
+     }
+     h1{
+         font-size:159%;
+     }
+   }
+
+
    @media screen and (max-width: 480px) {
+
         .contain {
    width:80%;
      font-size:130%;
@@ -43,9 +75,9 @@ font-size:159%;
             font-size:169%;
         }
       }
+
 .field{
 
-padding-bottom: 5%;
+padding-bottom: 7%;
 
 }
-
