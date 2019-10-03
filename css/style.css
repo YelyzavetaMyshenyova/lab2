@@ -1,3 +1,4 @@
+
 body{
   background:#FCA33F;
   font-family: Georgia;
@@ -14,7 +15,10 @@ h1{
 margin-left: 3%;
 color:#FCA33F;
 }
-
+/*
+overflow: hidden;
+position: fixed;
+ */
 .contain{
 
   height:69%;
