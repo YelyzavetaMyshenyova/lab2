@@ -29,16 +29,20 @@ h1{
   padding-bottom: 7%;
 }
 @media screen and (min-width: 480px) {
+  font-size:170%;
   .contain {
     width:80%;
-    font-size:170%;
   }
   h1{
     font-size:189%;
+    margin-bottom: 6%;
   }
   label{
     display: block;
   }
+  .field{
+  padding-bottom: 4%;
+}
 }
 @media screen and (min-width: 850px) {
   h1{
