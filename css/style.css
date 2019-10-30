@@ -28,6 +28,7 @@ h1{
 .field{
   padding-bottom: 7%;
 }
+
 @media screen and (min-width: 1050px) {
   .contain {
     width:50%;
@@ -52,18 +53,15 @@ h1{
   }
      .contain {
 width:70%;
-  font-size:115%;
-     }
-     h1{
-         font-size:179%;
+  font-size:150%;
      }
    }
 @media screen and (min-width: 480px) {
   .contain {
     width:80%;
-    font-size:180%;
+    font-size:170%;
   }
   h1{
-    font-size:169%;
+    font-size:189%;
   }
 }
