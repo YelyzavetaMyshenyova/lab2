@@ -17,7 +17,7 @@ h1{
   margin-top: 5%;
   display: block;
   font-weight: normal;
-  font-size:110%;
+  font-size:170%;
   padding: 2% 1% 2% 2%;
   margin-left:auto;
   margin-right:auto;
@@ -28,16 +28,16 @@ h1{
 .field{
   padding-bottom: 7%;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 1050px) {
   .contain {
     width:50%;
     font-size:115%;
   }
   h1{
-    font-size:159%;
+    font-size:140%;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 950px) {
   .contain {
     width:60%;
     font-size:115%;
@@ -46,7 +46,7 @@ h1{
     font-size:159%;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 850px) {
   h1{
       font-size:138%;
   }
@@ -55,13 +55,13 @@ width:70%;
   font-size:115%;
      }
      h1{
-         font-size:159%;
+         font-size:179%;
      }
    }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .contain {
     width:80%;
-    font-size:130%;
+    font-size:180%;
   }
   h1{
     font-size:169%;
