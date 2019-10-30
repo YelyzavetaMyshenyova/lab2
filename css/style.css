@@ -1,60 +1,51 @@
-
 body{
   background:#FCA33F;
- font-family: 'PT Serif', 'Fjalla One', serif;
+  font-family: 'PT Serif', 'Fjalla One', serif;
   display: block;
 }
-
 h1{
-
   align-content: center;
   font-weight: 700;
   font-size:158%;
   margin-bottom: 12%;
   margin-top:3%;
-margin-left: 3%;
-color:#FCA33F;
+  margin-left: 3%;
+  color:#FCA33F;
 }
-/*
-overflow: hidden;
-position: fixed;
- */
 .contain{
-
   height:69%;
   margin-top: 5%;
-display: block;
+  display: block;
   font-weight: normal;
   font-size:110%;
   padding: 2% 1% 2% 2%;
   margin-left:auto;
   margin-right:auto;
-width:31%;
-border-radius: 14px;
-background:white;
-
+  width:31%;
+  border-radius: 14px;
+  background:white;
 }
-
+.field{
+  padding-bottom: 7%;
+}
 @media screen and (max-width: 1050px) {
-     .contain {
-width:50%;
-  font-size:115%;
-     }
-     h1{
-         font-size:159%;
-     }
-   }
-
-   @media screen and (max-width: 950px) {
-        .contain {
-   width:60%;
-     font-size:115%;
-        }
-        h1{
-            font-size:159%;
-        }
-      }
-
+  .contain {
+    width:50%;
+    font-size:115%;
+  }
+  h1{
+    font-size:159%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .contain {
+    width:60%;
+    font-size:115%;
+  }
+  h1{
+    font-size:159%;
+  }
+}
 @media screen and (max-width: 850px) {
   h1{
       font-size:138%;
@@ -67,21 +58,12 @@ width:70%;
          font-size:159%;
      }
    }
-
-
-   @media screen and (max-width: 480px) {
-
-        .contain {
-   width:80%;
-     font-size:130%;
-        }
-        h1{
-            font-size:169%;
-        }
-      }
-
-.field{
-
-padding-bottom: 7%;
-
+@media screen and (max-width: 480px) {
+  .contain {
+    width:80%;
+    font-size:130%;
+  }
+  h1{
+    font-size:169%;
+  }
 }
