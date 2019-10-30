@@ -1,9 +1,15 @@
+
+/* line height is set to 2.2 em in the general body, with a ratio of 1.5*/
 body{
   background:#FCA33F;
   font-family: 'PT Serif', 'Fjalla One', serif;
   display: block;
+  line-height: 2.2em;
 }
+
+/* line height is set to 1.2 em in the general h1, with a ratio of 1.5*/
 h1{
+  line-height: 1.2em;
   align-content: center;
   font-weight: 700;
   font-size:158%;
@@ -44,14 +50,17 @@ h1{
   padding-bottom: 4%;
 }
 }
+
+/* line height is set to 1.2 em in the 850px screen size, with a ratio of 1.5*/
 @media screen and (min-width: 850px) {
+  line-height: 1.2em;
   h1{
-      font-size:138%;
+    font-size:138%;
   }
-     .contain {
-width:70%;
-  font-size:140%;
-     }
+  .contain {
+    width:70%;
+    font-size:140%;
+  }
   label{
     display: block;
   }
