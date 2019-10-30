@@ -28,23 +28,13 @@ h1{
 .field{
   padding-bottom: 7%;
 }
-
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 480px) {
   .contain {
-    width:50%;
-    font-size:115%;
+    width:80%;
+    font-size:170%;
   }
   h1{
-    font-size:140%;
-  }
-}
-@media screen and (min-width: 950px) {
-  .contain {
-    width:60%;
-    font-size:115%;
-  }
-  h1{
-    font-size:159%;
+    font-size:189%;
   }
 }
 @media screen and (min-width: 850px) {
@@ -56,12 +46,21 @@ width:70%;
   font-size:150%;
      }
    }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 950px) {
   .contain {
-    width:80%;
-    font-size:170%;
+    width:60%;
+    font-size:115%;
   }
   h1{
-    font-size:189%;
+    font-size:159%;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .contain {
+    width:50%;
+    font-size:115%;
+  }
+  h1{
+    font-size:140%;
   }
 }
