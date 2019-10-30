@@ -36,6 +36,9 @@ h1{
   h1{
     font-size:189%;
   }
+  label{
+    display: block;
+  }
 }
 @media screen and (min-width: 850px) {
   h1{
@@ -45,7 +48,10 @@ h1{
 width:70%;
   font-size:150%;
      }
-   }
+  label{
+    display: block;
+  }
+}
 @media screen and (min-width: 950px) {
   .contain {
     width:60%;
