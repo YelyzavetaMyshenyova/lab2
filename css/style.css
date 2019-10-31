@@ -34,8 +34,8 @@ h1{
   padding-bottom: 7%;
 }
 @media screen and (min-width: 480px) {
-  font-size:149%;
   .contain{
+    font-size:149%;
     width:80%;
   }
   h1{
